@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/ZubairA2109/centralrepo.git
+  url: ssh://git@github.com/ZubairA2109/centralrepo
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
